@@ -58,21 +58,21 @@ $nav-trans-text: color 0.2s linear;
 
 .navbar-default .navbar-toggle{
     border-radius: 0px;
-    border-color: #fff;
-    background-color: #383a4c;
+    border-color: #000000;
+    background-color: #fafafa;
 	transition: $nav-trans-text, $nav-trans-color;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-    border-radius: 0px;
-    border-color: #fff;
-    background-color: #fff;
+    border-radius: 1px;
+    border-color: #000000;
+    background-color: darkgray;
 	transition: $nav-trans-text, $nav-trans-color;
 
 }
 
 .navbar-default .navbar-toggle .icon-bar{
-    background-color: #27ae60;
+    background-color: #000000;
 }
 
 #title{
@@ -126,7 +126,12 @@ $nav-trans-text: color 0.2s linear;
 		margin-left: 25%;
 		width: 50%;
 	}
+
+    .grid{
+        width: 100%;
+    }
 }
+
 
 $cat-padding: 10px;
 $cat-trans-color: background-color 0.2s linear;
@@ -213,7 +218,6 @@ $c-padding: 50px;
 .c-content{
     padding-top: $c-padding;
     padding-bottom: $c-padding;
-    color: #ecf0f1;
 }
 
 .c-top{
@@ -253,15 +257,33 @@ $c-padding: 50px;
 
 .c-bottom a i{
     display: inline-block;
-    padding: 10px;
-    color: #ecf0f1;
+    padding: 20px;
+    color: darkgray;
 }
 
 .c-bottom a i:hover{
     display: inline-block;
-    padding: 10px;
-    color: #fff;
+    padding: 20px;
 	transition: $cat-trans-text, $cat-trans-color;
+}
+
+.fb-icon-color:hover{
+    color: #3b5998;
+}
+.yt-icon-color:hover{
+    color: red;
+}
+.twt-icon-color:hover{
+    color:  #4099FF;
+}
+.blg-icon-color:hover{
+    color: orange;
+}
+.git-icon-color:hover{
+    color: #4078c0;
+}
+.lnk-icon-color:hover{
+    color: #007bb6;
 }
 
 .copyright{

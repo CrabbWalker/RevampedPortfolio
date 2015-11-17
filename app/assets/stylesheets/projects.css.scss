@@ -10,6 +10,7 @@ $cat-trans-text: color 0.2s linear;
 }
 
 .box {
+  margin: 5px;
   margin-top: 25px;
   width: 214px;
 }
@@ -29,12 +30,15 @@ $nav-trans-color: background-color 0.2s linear;
     width: 100%;
     height: 50px;
     top: 0;
-    background-color: #27ae60;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(143,143,143,1);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(143,143,143,1);
+    box-shadow: 0px 5px 10px 0px rgba(143,143,143,1);
 	transition: $cat-trans-color;
 }
 
 .back:hover{
-    background-color: #2ecc71;
+    background-color: darkgray;
 	transition: $cat-trans-color;
 }
 
@@ -63,8 +67,9 @@ $nav-trans-color: background-color 0.2s linear;
 }
 
 .pButton > a{
-    background-color: #27ae60;
+    background-color: #fafafa;
 	transition: $cat-trans-text, $cat-trans-color;
+    border: 2px solid;
     border-radius: 0px;
 }
 
@@ -73,13 +78,15 @@ $nav-trans-color: background-color 0.2s linear;
     text-decoration: none;
     background-color: #2ecc71;
 	transition: $cat-trans-text, $cat-trans-color;
+    border: 2px solid;
     border-radius: 0px;
 }
 
 .pButton > a:hover{
     color: #fff;
     text-decoration: none;
-    background-color: #2ecc71;
+    background-color: darkgray;
 	transition: $cat-trans-text, $cat-trans-color;
+    border: 2px solid;
     border-radius: 0px;
 }

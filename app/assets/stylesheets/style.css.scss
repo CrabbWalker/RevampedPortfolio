@@ -2,12 +2,12 @@
 
 h1, p, i, a{
 	color: #000000;
-    font-family: 'Open Sans', sans-serif;
+    font-family: medium-content-serif-font;
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: darkgray;
+    font-family: medium-content-serif-font;
+    background-color: #ecf0f1;
 }
 
 $nav-trans-color: background-color 0.2s linear;
@@ -35,13 +35,13 @@ $nav-trans-text: color 0.2s linear;
 #navbar a{
     background-color: #fafafa;
 	transition: $nav-trans-text, $nav-trans-color;
-    color: darkgray;
+    color: #000000;
 }
 
 #navbar a:hover{
     background-color: #fafafa;
 	transition: $nav-trans-text, $nav-trans-color;
-    color: #000000;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand{
@@ -101,6 +101,11 @@ $nav-trans-text: color 0.2s linear;
 
 .title-text h1{
 	margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-text p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .col-lg-12 img{
@@ -166,11 +171,6 @@ $cat-trans-text: color 0.2s linear;
     margin: 0px;
 }
 
-#portfolio > .text-center p{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
 .container-fluid{
     padding: 0px;
 }
@@ -185,13 +185,13 @@ $cat-trans-text: color 0.2s linear;
     background-color: #272936;
 }
 
-#featured{
+#about{
     background-color: #fafafa;
     border-top: 3px solid #f0f0f0;
     border-bottom: 3px solid #f0f0f0;
 }
 
-#featured p{
+#about p{
     color: #fff;
 }
 
@@ -227,7 +227,7 @@ $c-padding: 50px;
 .c-border{
     margin: auto;
     width: 50%;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .c-email{
@@ -235,7 +235,22 @@ $c-padding: 50px;
 }
 
 .c-email > a{
-    color: #000000;
+	transition: $cat-trans-text, $cat-trans-color;
+    border-radius: 0px;
+}
+
+.c-email .btn:focus{
+    color: #fff;
+    text-decoration: none;
+    background-color: #383a4c;
+	transition: $cat-trans-text, $cat-trans-color;
+    border-radius: 0px;
+}
+
+.c-email > a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #00BFFF;
 	transition: $cat-trans-text, $cat-trans-color;
     border-radius: 0px;
 }
@@ -295,13 +310,12 @@ $c-padding: 50px;
     opacity: 0.2;
 }
 
-.featured-container{
+.about-container{
     padding-top: 200px;
     padding-bottom: 250px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
 }
 
-.featured-container > .row h1{
+.about-container > .row h1{
     margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
 }

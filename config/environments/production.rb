@@ -19,7 +19,7 @@ Rails.application.configure do
   # For large-scale production use, consider using a caching reverse proxy like
   # NGINX, varnish or squid.
   # config.action_dispatch.rack_cache = true
-
+  config.secret_key_base ='61fce53691b1902c732f21dc0152641ba9f73163eba48d7a4b9252da986b7280d6ba209e627cece311c91f756d57a30dc6c4eb8c3a50b3334403535040991857'
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?

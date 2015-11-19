@@ -2,11 +2,11 @@
 
 h1, p, i, a{
 	color: #000000;
-    font-family: medium-content-serif-font;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
-    font-family: medium-content-serif-font;
+    font-family: 'Open Sans', sans-serif;
     background-color: #ecf0f1;
 }
 
@@ -35,13 +35,13 @@ $nav-trans-text: color 0.2s linear;
 #navbar a{
     background-color: #fafafa;
 	transition: $nav-trans-text, $nav-trans-color;
-    color: #000000;
+    color: darkgray;
 }
 
 #navbar a:hover{
     background-color: #fafafa;
 	transition: $nav-trans-text, $nav-trans-color;
-    color: #fff;
+    color: #000000;
 }
 
 .navbar-default .navbar-brand{
@@ -101,11 +101,6 @@ $nav-trans-text: color 0.2s linear;
 
 .title-text h1{
 	margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.title-text p{
-    font-family: 'Open Sans', sans-serif;
 }
 
 .col-lg-12 img{
@@ -239,16 +234,8 @@ $c-padding: 50px;
     border-radius: 0px;
 }
 
-.c-email .btn:focus{
-    color: #fff;
-    text-decoration: none;
-    background-color: #383a4c;
-	transition: $cat-trans-text, $cat-trans-color;
-    border-radius: 0px;
-}
-
 .c-email > a:hover{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     background-color: #00BFFF;
 	transition: $cat-trans-text, $cat-trans-color;
@@ -317,5 +304,9 @@ $c-padding: 50px;
 
 .about-container > .row h1{
     margin-bottom: 50px;
-    font-family: 'Open Sans', sans-serif;
+}
+
+.text-center p{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
